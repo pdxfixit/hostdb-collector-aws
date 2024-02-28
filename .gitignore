@@ -1,0 +1,16 @@
+*.swp
+.idea
+bin
+out
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# hostdb-collector-aws binary
+/hostdb-collector-aws
+
+# environment variables file used during `docker run`
+/env.list
+
+# sample data folder
+/sample-data/
